@@ -8,9 +8,9 @@ body {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  width: 1200px;
 }
 
+/*TOP SECTION*/
 .top {
   background-color: #1f2937;
   color: #f9faf8;
@@ -71,7 +71,7 @@ img {
 
 .hero-info>h1 {
   font-size: 48px;
-  font-weight: bolder;
+  font-weight: 800px;
   color: #f9faf8;
   margin: 0;
 }
@@ -90,3 +90,37 @@ a {
   border-radius: 5px;
   font-weight: bold;
 }
+
+/*UPPER-MIDDLE SECTION*/
+.upper-middle {
+  text-align: center;
+}
+
+.title {
+  font-size: 36px;
+  font-weight: 800px;
+  color: #1f2937;
+  margin-bottom: 32px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  gap: 52px;
+  height: 325px;
+}
+
+.info {
+  /* box-sizing: border-box; */
+  width: 200px;
+}
+
+.info-img {
+  height: 200px;
+  justify-content: center;
+  border: 5px solid dodgerblue;
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
+
+/*LOWER-MIDDLE SECTION*/
